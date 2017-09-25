@@ -12,7 +12,7 @@ allprojects {
 ````      
         dependencies {
             compile 'com.google.firebase:firebase-core:11.2.0'
-            compile 'com.github.erdalceylan:com-google-firebase-messaging:11.2.0'
+            compile 'com.github.erdalceylan:com-google-firebase-messaging:ver11.2.0'
         }
 
 ````
