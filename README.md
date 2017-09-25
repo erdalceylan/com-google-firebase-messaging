@@ -1,6 +1,14 @@
 
 ## How to use
 - Import gradle dependency:
+````
+allprojects {
+    repositories {
+      ...
+      maven { url 'https://jitpack.io' }
+    }
+}
+````
 ````      
         dependencies {
             compile 'com.google.firebase:firebase-core:11.2.0'

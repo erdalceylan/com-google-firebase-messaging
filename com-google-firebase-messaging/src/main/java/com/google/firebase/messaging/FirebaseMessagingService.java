@@ -124,15 +124,15 @@ public class FirebaseMessagingService extends zzb {
                         }
 
                         var13.remove("android.support.content.wakelockid");
-//                        if(zza.zzac(var13)) {
-//                            if(zza.zzep(this).zzr(var13)) {
-//                                return;
-//                            }
-//
-//                            if(zzaf(var13)) {
-//                                zzd.zzj(this, var1);
-//                            }
-//                        }
+                        if(zza.zzac(var13)) {
+                            if(zza.zzep(this).zzr(var13)) {
+                                return;
+                            }
+
+                            if(zzaf(var13)) {
+                                zzd.zzj(this, var1);
+                            }
+                        }
 
                         this.onMessageReceived(new RemoteMessage(var13));
                         return;
